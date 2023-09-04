@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./Frame2.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="frame-parent">
+      <div class="frame2">
+        <div class="back" id="backText">back</div>
+      </div>
+      <div class="frame3">
+        <div class="test">Test</div>
+        <div class="argie1">Argie1</div>
+        <div class="unit102">Unit102</div>
+        <div class="frame-child"></div>
+      </div>
+    </div>
+
+    <script>
+      var backText = document.getElementById("backText");
+      if (backText) {
+        backText.addEventListener("click", function (e) {
+          window.location.href = "./Frame.html";
+        });
+      }
+      </script>
+  </body>
+</html>

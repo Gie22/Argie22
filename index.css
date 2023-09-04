@@ -1,0 +1,57 @@
+.buttom,
+.name {
+  position: relative;
+  display: inline-block;
+  width: 122px;
+}
+.buttom {
+  font-size: var(--font-size-xs);
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  text-align: left;
+  width: 84px;
+  height: 19px;
+  flex-shrink: 0;
+}
+.frame,
+.frame1,
+.name-parent {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.frame1 {
+  cursor: pointer;
+  border: 0;
+  padding: 6px 8px;
+  background-color: var(--color-gainsboro);
+  width: 113px;
+  height: 33px;
+  flex-shrink: 0;
+  box-sizing: border-box;
+  justify-content: flex-start;
+}
+.frame,
+.name-parent {
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+.frame {
+  width: 122px;
+  height: 145px;
+  flex-shrink: 0;
+  justify-content: flex-start;
+  gap: 97px;
+}
+.name-parent {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  padding: 25px 17px 54px 23px;
+  box-sizing: border-box;
+  justify-content: flex-end;
+  gap: 5px;
+}
